@@ -1,25 +1,22 @@
 # vars
 
-[![Package Version](https://img.shields.io/hexpm/v/vars)](https://hex.pm/packages/vars)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/vars/)
+## Installation
 
-```sh
-gleam add vars
-```
-```gleam
-import vars
-
-pub fn main() {
-  // TODO: An example of the project in use
-}
+```bash
+./install.sh
 ```
 
-Further documentation can be found at <https://hexdocs.pm/vars>.
+## Usage
 
-## Development
-
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-gleam shell # Run an Erlang shell
+```bash
+[aimen:~]$ vars
+Commands:
+  - vars get <key>
+  - vars set <key> <value>
+  - vars unset <key> <value>
+  - vars all
+  - vars help
+[aimen:~]$ vars get HOME
+HOME=/Users/aimen
+[aimen:~]$
 ```
